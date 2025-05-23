@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH =/home/rtyrv/public_html/karstorp/
+    - /bin/cp index.php $DEPLOYPATH
